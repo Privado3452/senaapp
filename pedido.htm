@@ -36,8 +36,8 @@
                         <span>Usuario</span>
                     </a>
                 </li>
-               
-               
+
+
                 <li class="sidebar-item">
                     <a href="cliente.html" class="sidebar-link">
                         <i class="lni lni-popup"></i>
@@ -63,7 +63,7 @@
                     </a>
                 </li>
             </ul>
-            
+
             <div class="sidebar-footer">
                 <a href="index.html" class="sidebar-link">
                     <i class="lni lni-exit"></i>
@@ -74,8 +74,130 @@
         <div class="main p-3">
             <div class="text-center">
                 <h1>
-                    Pedido
+                    Pedidos
                 </h1>
+
+                <div class="py-5">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Direccion</th>
+                                <th scope="col">Estado del Pedido</th>
+                                <th scope="col">Cliente</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Valor</th>
+                               
+
+
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>2020-01-24</td>
+                                <td>Cll3 N° 2-9</td>
+                                <td><select class="form-select" aria-label="Default select example">
+                                    <option selected>Estado</option>
+                                    <option value="1">Cancelado</option>
+                                    <option value="2">Completado</option>
+                                    <option value="3">Fallido</option>
+                                    <option value="4">En espera</option>
+                                    <option value="5">Procesando</option>
+                                    <option value="6">Pendiente de pago</option>
+                                    <option value="7">Reemblolsado</option>
+                                    
+                                    
+                                  </select>
+                                </td>
+                                <td>Pablo</td>
+                                <td>Celular</td>
+                                <td>12</td>
+                                <td>150.000</td>
+                                <td>
+                                    <div class="mb-3 form-check text-bg-">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1"></label>
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>2020-01-22</td>
+                                <td>Cll3 N° 2-9</td>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Estado</option>
+                                        <option value="1">Cancelado</option>
+                                        <option value="2">Completado</option>
+                                        <option value="3">Fallido</option>
+                                        <option value="4">En espera</option>
+                                        <option value="5">Procesando</option>
+                                        <option value="6">Pendiente de pago</option>
+                                        <option value="7">Reemblolsado</option>
+                                        
+                                        
+                                      </select>
+                                </td>
+                                <td>Pedro</td>
+                                <td>Computador</td>
+                                <td>12</td>
+                                <td>150.000</td>
+                                <td>
+                                    <div class="mb-3 form-check text-bg-">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1"></label>
+                                    </div>
+                                </td>
+                               
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>2020-01-20</td>
+                                <td>Cll3 N° 2-9</td>
+                                <td>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Estado</option>
+                                        <option value="1">Cancelado</option>
+                                        <option value="2">Completado</option>
+                                        <option value="3">Fallido</option>
+                                        <option value="4">En espera</option>
+                                        <option value="5">Procesando</option>
+                                        <option value="6">Pendiente de pago</option>
+                                        <option value="7">Reemblolsado</option>
+                                        
+                                        
+                                      </select>
+                                </td>
+                                <td>Juan</td>
+                                <td>Reloj</td>
+                                <td>12</td>
+                                <td>150.000</td>
+                                <td>
+                                    <div class="mb-3 form-check text-bg-">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1"></label>
+                                    </div>
+                                </td>
+                                
+
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <!-- Button trigger modal -->
+
+                       
+                    </div>
+                </div>
             </div>
         </div>
     </div>
